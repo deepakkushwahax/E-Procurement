@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'Vendor',
+    'Recruitment_Module',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

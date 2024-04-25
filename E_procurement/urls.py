@@ -20,4 +20,5 @@ from django.urls import path,include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('Vendor/',include('Vendor.urls')),
+    path('Recruitment_Module/',include('Recruitment_Module.urls'))
 ]
