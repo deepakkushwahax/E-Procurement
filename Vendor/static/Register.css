@@ -51,18 +51,26 @@ tr:hover {
 }
 
 
-#View_Tender{
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
+/*----- This Button is view_tender.html file  --------*/
 
-#View_Tender:hover {
-    background-color: #0056b3;
-}
+
+    .Button {
+        /* Your button styles */
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+
+    .Button:hover {
+        background-color: #45a049;
+    }
+
 

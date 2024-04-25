@@ -69,17 +69,50 @@
     </div>
 
 
-
+<!-- View_tender Button is Her
 <div class='Button'>
     <button><a href="{%url 'view_tender'%}">View_Tender</a></button>
-</div>    
+</div>  
+-->
+
+<style>
+    .Button {
+        /* Your button container styles */
+    }
+
+    .Button button {
+        /* Your button styles */
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+
+    .Button button:hover {
+        background-color: #45a049;
+    }
+</style>
+
+<div class='Button'>
+    <a href="{% url 'view_tender' %}">
+        <button>View Tender</button>
+    </a>
+</div>
 
 
 
-
-<div class='Button1'>
+<!-- Feedback Button is Here -->
+<div class='Button'>
     <button><a href="{%url 'feedback'%}">Feedback</a></button>
 </div>    
+
 
 
 </body>
