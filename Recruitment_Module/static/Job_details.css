@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+}
+.job-details {
+    margin-top: 20px;
+}
+.job-details h2 {
+    margin-bottom: 10px;
+}
+.job-details p {
+    margin-bottom: 5px;
+}
+.job-details ul {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}

@@ -10,3 +10,8 @@ def Recuitment_Module(request):
     template=loader.get_template('Recuitment.html')
     return HttpResponse(template.render())
 
+def Job_details(request):
+    return render(request,'Job_details.html')
+
+
+
